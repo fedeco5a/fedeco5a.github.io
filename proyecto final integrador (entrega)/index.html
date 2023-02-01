@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto integrador CV</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">F3D3</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div id="icon-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        
+        </header> 
+    </div>
+    
+          
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/fperf2xxb.jpg" alt="foto de perfíl">
+            </div>
+            <h1>FEDE COSA</h1>
+            <h2>Compositor-Instrumentista-Edición de partitituras.</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram gradient-text"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin gradient-text"></i></a>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Fede Cosa.</span>Músico de estudio, instrumentista y compositor de música con más de ocho años de experiencia en la industria musical. Trabajos de edicíon de partituras, arreglos para teatro y televisión y composición de bandas sonoras para cine y videojuegos. Estudios Superiores de Piano,clarinete y guitarra .habilidades para la composición y la producción musical.
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            07-08-1981
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            351-545455
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            fedecosa@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.F3D3CosA.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong> 
+                                5009 Córdoba, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                       
+                       
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sibelius</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>FMOD</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pure Data</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span> Competencias en producción musical y edición de sonido</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Conocimiento de múltiples técnicas compositivas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> Aplicación de distintas técnicas compositivas en una misma obra</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>  manejo de programas de generación de loops y samplers</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Habilidades de dirección coral y orquestación.Competencias Digitales</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Lic. y profesorado en Composición musical</h4>
+                        <span class="casa">Universidad Nacional De Córdoba</span>
+                        <span class="fecha">2005 - 2018</span>
+                        <p>Estudios de Composición.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>trayecto artistico y profesional(T.A.P)</h4>
+                        <span class="casa">Conservatorio Felix T.Garzón</span>
+                        <span class="fecha">2005 - 2013</span>
+                        <p>estudios de clarinete y piano clásico</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Composición de musica de video juegos y Multimedia</h4>
+                        <span class="casa">Universidad Tecnologica de Buenos Aires.</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Conocimientos en el uso de softwares de edición de sonido y de musica adaptativa (Pro Tools, Reaper,FMOD,Wwise,Unity).</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Composiciones-ediciones</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2013 - 2021</span>
+                        <p>Realización de labores de composición, producción y edición de música y partituras.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Compositor </h4>
+                        <span class="casa">Carraldo Films</span>
+                        <span class="fecha">2015 - 2018</span>
+                        <p>Creación de piezas musicales originales para cortometrajes independientes y apoyo en tareas de edición de audio.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Realización de tareas de sonorización y edición de audio</h4>
+                        <span class="casa">Independiente</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>Creación de sintonías, fondos y bandas sonoras para obras de teatro y viedeo juegos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Parar ir a Buscarte_page-0001.jpg" alt="partititura-Música">
+                    <div class="overlay">
+                        <h3>Transcripción y Edición </h3>
+                        <p>partitituras-Música</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/si dios me quita la vida1.jpg" alt="partititura-Música">
+                    <div class="overlay">
+                        <h3>Transcripción y Edición </h3>
+                        <p>partitituras-Música</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/lagrimas del alma _page-1.jpg" alt="partititura-Música">
+                    <div class="overlay">
+                        <h3>Transcripción y Edición </h3>
+                        <p>partitituras-Música</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/que triste mi despertar en corrt_page-0001.jpg" alt="partititura-Música">
+                    <div class="overlay">
+                        <h3>Transcripción y Edición </h3>
+                        <p>partitituras-Música</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Echame ami la culpa _page-1.jpg" alt="partititura-Música">
+                    <div class="overlay">
+                        <h3>Transcripción y Edición </h3>
+                        <p>partitituras-Música</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/lagrimas del alma _page-1.jpg" alt="partititura-Música">
+                    <div class="overlay">
+                        <h3>Transcripción y Edición </h3>
+                        <p>partitituras-Música</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" name="nombre"placeholder="Tú Nombre">
+                    <input type="text" name="numero de telefono"placeholder="Número telefónico">
+                    <input type="text" name="E mail" placeholder="Dirección de correo">
+                    <input type="text"name="asunto" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicación1.jpg" alt="Mapa de Córdoba">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                J.B.Planas 2345,Córdoba Captital
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 351-534344 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: fedecosa@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram gradient-text"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin gradient-text"></i></a>
+          </a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
